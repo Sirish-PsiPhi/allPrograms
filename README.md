@@ -7,6 +7,7 @@
 ```
 
 # Python Libraries Used(For Individual installation)
+    pip install "library name"
     heuristicsearch -> P1, P2
     conceptlearning -> P3
     decision-tree-ID3-Algorithm -> P4
