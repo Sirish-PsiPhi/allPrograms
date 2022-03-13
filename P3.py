@@ -1,4 +1,4 @@
-from CandidateEliminationAlgorithm import CandidateElimination
+from conceptlearning.CandidateEliminationAlgorithm import CandidateElimination
 import csv
 
 with open('./datasets/P3.csv')  as csvFile:

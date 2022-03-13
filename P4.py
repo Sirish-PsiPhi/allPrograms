@@ -1,4 +1,4 @@
-from ID3Algorithm import ID3
+from decisiontree.ID3Algorithm import ID3
 import csv
 
 def load_csv(filename):

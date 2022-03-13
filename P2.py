@@ -1,4 +1,4 @@
-from ao_star import AOStar
+from heuristicsearch.ao_star import AOStar
 
 print("Graph - 1")
 heuristic = {'A': 1, 'B': 6, 'C': 12, 'D': 10, 'E': 4, 'F': 4, 'G': 5, 'H': 7}

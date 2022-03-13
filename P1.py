@@ -1,4 +1,4 @@
-from a_star_search import AStar
+from heuristicsearch.a_star_search import AStar
 
 # For Example 1
 adjacency_list = {
