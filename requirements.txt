@@ -1,0 +1,8 @@
+heuristicsearch==0.1.1
+conceptlearning==0.0.5
+decision-tree-ID3-Algorithm==0.0.5
+backpropagation==0.0.3
+scikit-learn
+pandas
+matplotlib
+bokeh
