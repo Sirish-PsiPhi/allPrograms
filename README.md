@@ -1,13 +1,12 @@
 # VTU 7th SEM AI&ML LAB 18CSL76
     This repo contains all the AI&ML Lab programs for VTU 2018 CBCS Scheme
 # Prerequites
-    Use the following command in terminal in the same directory as requirements.txt
+    Use the following command in terminal in the same directory as requirements.txt or just run the installLibraries batch file
 ```python
     pip install -r requirements.txt
 ```
-    Or just run the installLibraries windows batch file
 
-# Python Libraries Used(For Indiviual installation)
+# Python Libraries Used(For Individual installation)
     heuristicsearch -> P1, P2
     conceptlearning -> P3
     decision-tree-ID3-Algorithm -> P4
