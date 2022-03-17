@@ -22,8 +22,9 @@ features_train, features_test, target_train, target_test = train_test_split(diab
                                                                             test_size=0.3, random_state=54)
 
 model = GaussianNB()
-model.fit(features_train, target_train)
+model.fit(features_train, target_train.values.ravel())
 
 prediction = model.predict(features_test)
 accuracy = accuracy_score(target_test, prediction)
+print(f'Split {len(diabetes)} rows into train={len(features_train)}, test={len(features_test)}')
 print(f"Accuracy of the prediction is {accuracy}")
