@@ -16,11 +16,15 @@ def local_regression(x0,X,Y,tau):
     return x0 @ beta
 
 X = np.linspace(-3,3,num=1000)
+print("The Data Set ( 10 Samples) X :\n", X[1:10])
 Y = np.log(np.abs(X ** 2 - 1) + .5)
+print("The Fitting Curve Data Set (10 Samples) Y :\n", Y[1:10])
 
 X += np.random.normal(scale=.1,size=1000)
+print("Normalised (10 Samples) X :\n", X[1:10])
 
 domain = np.linspace(-3,3,num=1000)
+print(" Xo Domain Space(10 Samples) :\n", domain[1:10])
 
 def plot_lwr(tau):
     prediction = [local_regression(x0,X,Y,tau) for x0 in domain]
